@@ -1,0 +1,32 @@
+name: Teknisk tilbakemelding
+description: Meld fra om feil eller problemer
+title: "[Feedback]: "
+labels: ["feedback", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Ikke skriv personopplysninger** og ikke legg ved filer med reelt innhold. Alt her er offentlig.
+  - type: dropdown
+    id: module
+    attributes:
+      label: Hvilken modul gjelder det?
+      options:
+        - Vet ikke
+        - Modul A
+        - Modul B
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Hva skjedde?
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Bekreftelse
+      options:
+        - label: Jeg har ikke tatt med personopplysninger
+          required: true
