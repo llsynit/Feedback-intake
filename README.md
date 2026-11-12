@@ -2,7 +2,7 @@
  
 Dette er Statpeds mottak for tilbakemeldinger og diskusjoner om våre digitale ressurser og prosjekter.
  
-> [!Advarsel]
+> [!Warning]
 > Dette repoet er offentlig. Alt du skriver her, inkludert vedlegg og skjermbilder, kan leses av alle.
 > Ikke del personopplysninger, som navn på elever, fødselsnummer, helseopplysninger eller skjermbilder som viser personopplysninger.
 > Ikke del passord, tilgangslenker, tokens, API-nøkler eller annen informasjon som skal holdes intern.
