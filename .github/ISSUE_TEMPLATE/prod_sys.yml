@@ -1,0 +1,49 @@
+name: "ProdSys: tilbakemelding"
+description: Meld fra om feil eller problemer ved produksjonssystemet
+title: "[ProdSys]: "
+labels: ["ProdSys", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Alt her er offentlig.** Ikke del personopplysninger eller intern informasjon, og sjekk vedlegg før opplasting.
+  - type: dropdown
+    id: which-user
+    attributes:
+      label: Hvem er dette? 
+      description: Om du trenger en ID, snakk med utviklingsteamet
+      options:
+        - Ekstern # F: Need to establish ID
+    validations:
+      required: true
+  - type: dropdown
+    id: which-module
+    attributes:
+      label: Hvilken modul gjelder det?
+      options: # F: Needs to be filled out
+        - Vet ikke
+        - Modul A
+        - Modul B
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Hva skjedde?
+      description: Beskriv feilen, når den skjedde, legg ved annen informasjon
+    validations:
+      required: true
+  - type: textarea
+    id: issue-effect
+    attributes:
+      label: Hvordan påvirker dette arbeidet ditt?
+      description: For å forstå hvordan problemet påvirker arbeidsflyten din
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-publishing
+    attributes:
+      label: Bekreftelse
+      options:
+        - label: Jeg har sjekket at alt innhold her kan være offentlig.
+          required: true
