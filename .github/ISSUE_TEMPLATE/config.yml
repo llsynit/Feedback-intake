@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Spørsmål eller ideer
+    url: https://github.com/llsynit/Feedback-intake/discussions
+    about: Generelle spørsmål eller ideer hører hjemme i Discussions.
