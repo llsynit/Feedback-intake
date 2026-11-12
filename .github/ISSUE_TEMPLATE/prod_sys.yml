@@ -33,13 +33,6 @@ body:
       description: Beskriv feilen, når den skjedde, legg ved annen informasjon
     validations:
       required: true
-  - type: textarea
-    id: issue-effect
-    attributes:
-      label: Hvordan påvirker dette arbeidet ditt?
-      description: For å forstå hvordan problemet påvirker arbeidsflyten din
-    validations:
-      required: true
   - type: checkboxes
     id: public-publishing
     attributes:
