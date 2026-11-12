@@ -9,7 +9,8 @@ Dette er Statpeds mottak for tilbakemeldinger og diskusjoner om våre digitale r
 > Ved opplasting av logger eller lignende, ta en nøye gjennomgang først.
  
 ## Slik bruker du repoet
- 
+
+- **Bruker:** Hvis du jobber i Statped så ta kontakt for å etablere en bruker kode. Utenforstående som melder inn skal bruke "Ekstern". Skjemaer uten "Ekstern" er ikke ment for eksterne tilbakemeldinger.
 - **Feil eller problemer:** [Opprett en sak](https://github.com/llsynit/Feedback-intake/issues/new/choose) og velg riktig skjema.
 - **Spørsmål eller ideer:** Bruk [Discussions](https://github.com/llsynit/Feedback-intake/discussions).
 
