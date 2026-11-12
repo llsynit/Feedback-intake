@@ -1,0 +1,53 @@
+name: "NettHjem: tilbakemelding"
+description: Meld fra om feil eller problemer ved NettHjem
+title: "[NettHjem]: "
+labels: [NettHjem, triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Alt her er offentlig.** Ikke del personopplysninger eller intern informasjon, og sjekk vedlegg før opplasting.
+  - type: dropdown
+    id: which-user
+    attributes:
+      label: Hvem er dette?
+      description: Om du trenger en ID, snakk med utviklingsteamet
+      options:
+        - Ekstern # F: Need to establish ID
+    validations:
+      required: true
+  - type: dropdown
+    id: what-theme
+    attributes:
+      label: Hva gjelder det?
+      options:
+        - Helhetlig
+        - Oppgave
+        - Element
+        - Tekst
+        - Lyd
+        - Brukeropplevelse
+        - Skjermleser
+        - Annet
+    validations:
+      required: true
+  - type: textarea
+    id: where-happened
+    attributes:
+      label: Hvor skjedde det?
+      description: F.eks. hvilken oppgave, side eller hvilket element.
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Hva forventet du, og hva skjedde i stedet?
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-publishing
+    attributes:
+      label: Bekreftelse
+      options:
+        - label: Jeg har sjekket at alt innhold her kan være offentlig.
+          required: true
